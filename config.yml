@@ -1,0 +1,38 @@
+enabledRelics:
+  ticket: true
+  conductor: true
+  puppeteer: true
+
+general:
+
+  ticket:
+    model: 1
+    name: Проездной
+    description:
+    - Нажмите по существу
+    - чтобы оседлать его.
+    ticketCooldown: 100
+
+  conductor:
+    model: 2
+    name: Проводник
+    description:
+    - Забирает здоровье противника
+    conductorCooldown: 100
+    conductorDamage: 5
+
+  puppeteer:
+    model: 3
+    name: Кукловод
+    description:
+    - дописать
+    puppeteerMeleeCooldown: 20
+    puppeteerMeleeDamage: 6
+    puppeteerRangeCooldown: 20
+    puppeteerRangeDamage: 6
+    puppeteerSpecialCooldown: 20
+    puppeteerSpecialRadius: 3
+    puppeteerSummonCooldown: 20
+    puppeteerCloudDuration: 600
+    puppeteerEffectDuration: 200
+
